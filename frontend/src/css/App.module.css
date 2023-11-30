@@ -1,0 +1,12 @@
+:global * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:global body {
+  background-color: #FF5400;
+}
+
+.class {
+  color: pink;
+}/*# sourceMappingURL=App.module.css.map */
