@@ -1,0 +1,23 @@
+.container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+}
+
+.container h2 {
+      font-family: "Wix Madefor Display", sans-serif;
+      
+}
+
+.svg {
+      /* width: 200px;
+      height: 200px;
+
+      flex: none; */
+      height: auto;
+      position: relative;
+      transform: rotate(10deg);
+      width: 200px;
+      z-index: 1;
+}

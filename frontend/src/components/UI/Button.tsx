@@ -1,6 +1,5 @@
 import { ComponentPropsWithoutRef, type ReactNode } from "react";
 import { Link, type LinkProps } from "react-router-dom";
-import styles from '../../scss/components/UI/Button.module.scss';
 
 type BaseProps = {
   children: ReactNode;
@@ -20,7 +19,7 @@ const Button = (props: ButtonProps | LinkButtonProps) => {
   if (isRouterLink(props)) {
     const { children, ...otherProps } = props;
     return (
-      <Link className={styles.link} {...otherProps}>
+      <Link {...otherProps}>
         {children}
       </Link>
     );
@@ -28,7 +27,7 @@ const Button = (props: ButtonProps | LinkButtonProps) => {
 
   const { children, ...otherProps } = props;
   return (
-    <button className={styles.button} {...otherProps}>
+    <button {...otherProps}>
       {children}
     </button>
   );

@@ -1,0 +1,46 @@
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  background-image: radial-gradient(rgb(255, 84, 0) 1px, transparent 1px),
+    radial-gradient(rgb(255, 84, 0) 1px, rgb(0, 0, 0) 1px);
+  background-position: 0 0, 30px 30px;
+  background-size: 60px 60px;
+}
+
+.introSvg {
+  flex: none;
+  height: auto;
+  position: absolute;
+  right: 130px;
+  top: 115px;
+  transform: rotate(16deg);
+  width: 200px;
+  z-index: 1;
+}
+
+.introBox {
+  width: 70%;
+  margin: 1px auto 80px;
+}
+
+.intro h2 {
+  font-family: "Wix Madefor Display", sans-serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 80px;
+  padding: 0 0 20px 5%;
+}
+
+.intro p {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  font-family: "Spline Sans Mono", monospace;
+  padding: 20px 0 20px 5%;
+  color: rgb(255, 189, 0);
+}

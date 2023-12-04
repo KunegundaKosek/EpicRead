@@ -1,0 +1,41 @@
+.header {
+  margin: 0;
+  padding: 6%;
+  width: 100%;
+  background-color: black;
+}
+
+.header h1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 168.40395300696235px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(255, 189, 0);
+  text-transform: uppercase;
+}
+
+.header nav {
+  height: 100px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 80%;
+}
+
+.header nav a {
+  text-transform: uppercase;
+  font-family: "Spline Sans Mono", monospace;
+  color: rgb(255, 189, 0);
+  width: 13%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
